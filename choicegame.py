@@ -1,7 +1,7 @@
 #This is a game of choice!
 import time
 import random
-delay = random.random() * 3 + 1
+delay = random.random() * 4 + 1
 #Setting health at 10 for the beginning of the game.
 health = 10
 #Introduction to the game
@@ -39,6 +39,7 @@ if ans1 == "approach":
         health = 0
         time.sleep(delay)
         print("You have lost. What a shame lmao. Your health is " + str(health))
+        time.sleep(delay)
         exit ()
 if ans1 == "run":
     #If player chooses to run, some damage is taken.
