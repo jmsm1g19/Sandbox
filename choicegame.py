@@ -9,6 +9,8 @@ print("This is a game where you will make choices.")
 time.sleep(delay)
 print("These choices may negatively or positively affect your health. You can die at any point.")
 time.sleep(delay)
+print("Your health starts at 10.")
+time.sleep(delay)
 #Game begins
 name = input("What is your name, adventurer?")
 print(name + ", you are walking through the woods.")
